@@ -1,0 +1,92 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: green;
+    height: 100%;
+    margin: 0;
+}
+
+div {
+    width: 250px;
+    height: 300px;
+}
+
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.game {
+    width: 80%;
+    height: 100%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.dealer, .player {
+    width: 40%;
+    height: max-content;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.side {
+    height: 100%;
+    width: 20%;
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.deck {
+    background-image: url("Multimedia/back.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 10%;
+}
+
+.card {
+    background-image: url("Multimedia/back.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 5%    
+}
+
+.result {
+    background-color: grey;
+    border: 2px solid black;
+    width: 200px;
+    height: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+button {
+    font-size: xx-large;
+}
+
+
+
+
+
+
+  
+    
